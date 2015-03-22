@@ -54,10 +54,10 @@ Creates a second, independent tidy data set with the average of each variable fo
 
 A data.table named tidy.mean is set with the following columns. All units are maintained from the original data set. A file named tidy.mean.txt is written from run_analysis.R.
 
-write.table(column	description	type
+write.table()column	description	type
 Subject	Identifier of the subject	integer
 Activity	Label of the activity	factor
-MeanSamples	Mean of variables by Subject + Activity provided in tidy	numeric)
+MeanSamples	Mean of variables by Subject + Activity provided in tidy	numeric
 ##Tidy
 
 A data.table named tidy is set with the following columns. All units are maintained from the original data set. A file named tidy.txt is written from run_analysis.R.
