@@ -1,7 +1,7 @@
 #CodeBook
 This is a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
 
-#The data source
+##The data source
 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -41,7 +41,7 @@ The dataset includes the following files:
 
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-#Transformation details
+##Transformation details
 
 There are 5 parts:
 
